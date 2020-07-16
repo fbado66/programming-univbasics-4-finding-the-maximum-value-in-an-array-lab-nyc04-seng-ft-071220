@@ -5,17 +5,16 @@
 
 
 def find_max_value(array)
-  num1 = 0 
-  num2 = num1 + 1  
+  count = 0 
   max = 0
-  while num1 < array.length do 
-    if array[num1] > array[num2]
-      max = array[num1]
+  max_value = 0
+  while count < array.length do 
+    if array[count] > max
+      max = array[count]
     end 
-    num1 += 1 
-  end 
- max
+   count += 1
+ end 
+  max
 end
-
 
  
